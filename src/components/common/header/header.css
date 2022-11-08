@@ -1,0 +1,15 @@
+.abc{
+background-color: rgba(240,240,240,); 
+color: rgb(37, 37, 37);
+width: 150px;
+border-radius: 3px;
+border-color: rgba(0, 0, 0, 0.603); 
+
+}
+
+.nav-img{
+
+    width: 45px;
+    height:10px;
+    border-radius: 100px;
+}

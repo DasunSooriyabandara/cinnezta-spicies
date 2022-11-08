@@ -1,0 +1,89 @@
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(95, 51, 51, 0.7),
+        rgba(255, 255, 255, 0.3)
+      ),
+      /* url("https://images.pexels.com/photos/1005715/pexels-photo-1005715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+      url("logoq.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    overflow: hidden;
+    border: 0;
+    border-radius: 100px;
+}
+
+.img-left {
+    width: 45%;
+    background-image: url("/src/assets/reg2.jpg");
+    background-size: cover;
+}
+
+.card-body {
+    padding: 4rem;
+    margin-top: 20px;
+    border-radius: 100px;
+   
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size:50px;
+   
+}
+
+.form-input input {
+    width: 200px;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 60px;
+    box-shadow: none;
+    outline: none;
+    align-items: center;
+}
+
+.form-input span {
+    position: absolute;
+    top: 10px;
+    padding-left: 100px;
+    color: #007bff;
+    border-radius: 100px;
+}
+
+.mb-3 button {
+    width: 40%;
+    height: 45px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    box-shadow: none;
+    outline: none;
+    background-color: #FFAB00 ; 
+    /* rgb(201, 121, 68) */
+    font-weight: bold;
+    border: 2px solid #a0a0a0;
+
+}
+
+.forget {
+    text-align: center;
+}
+.invalid{
+
+    background: rgb(75, 69, 69);color: white;padding: 10px;
+    text-align: center;
+    
+  border-radius: 10px;
+}
+.rounded-3 {
+    border-radius: 100px;
+}
